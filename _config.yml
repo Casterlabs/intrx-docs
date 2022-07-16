@@ -42,7 +42,7 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-    "IntRX Website":
+    "Home":
         - "/"
     "Download":
         - "/download"
