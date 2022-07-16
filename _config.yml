@@ -1,7 +1,7 @@
 title: IntRX Documentation
 description: Documentation for IntRX.
-baseurl: "/intrx-docs" # the subpath of your site, e.g. /blog
-url: "https://casterlabs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/docs" # the subpath of your site, e.g. /blog
+url: "https://intrx.casterlabs.co" # the base hostname & protocol for your site, e.g. http://example.com
 
 remote_theme: pmarsceill/just-the-docs # Import the theme.
 
@@ -42,10 +42,12 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
+    "IntRX Website":
+        - "/"
     "Casterlabs":
         - "https://casterlabs.co"
-    "RxBots":
-        - "https://rxbots.net"
+#    "RxBots":
+#        - "https://rxbots.net"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
@@ -61,7 +63,7 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "Copyright &copy; 2022-2022 Casterlabs."
+footer_content: "Copyright &copy; 2022 Casterlabs."
 
 # Footer last edited timestamp
 # last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
@@ -70,8 +72,8 @@ footer_content: "Copyright &copy; 2022-2022 Casterlabs."
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/Casterlabs/caffeinated-sdk" # the github URL for your repo
-gh_edit_branch: "gh-pages" # the branch that your docs is served from
+gh_edit_repository: "https://github.com/Casterlabs/intrx-docs" # the github URL for your repo
+gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
